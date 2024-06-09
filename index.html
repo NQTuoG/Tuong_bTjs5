@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container" id="baiTap1">
+      <form id="formNhapDiem">
+        <h2>Bài Tập Quản lý tuyển sinh</h2>
+        <div class="mb-3">
+          <label for="diemChuan" class="form-label">Điểm Chuẩn</label>
+          <input
+            type="text"
+            class="form-control"
+            name="diemChuan"
+            id="diemChuan"
+            aria-describedby="helpId"
+            placeholder="Điểm Chuẩn"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="khuVuc" class="form-label">Khu Vực</label>
+          <select class="form-select form-select-lg" name="khuVuc" id="khuVuc">
+            <option value="0">Khu Vực X</option>
+            <option value="2">Khu Vực A</option>
+            <option value="1">Khu Vực B</option>
+            <option value="0.5">Khu Vực C</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="doiTuong" class="form-label">Đối Tượng</label>
+          <select
+            class="form-select form-select-lg"
+            name="doiTuong"
+            id="doiTuong"
+          >
+            <option value="0">Đối Tượng 0</option>
+            <option value="2.5">Đối Tượng 1</option>
+            <option value="1.5">Đối Tượng 2</option>
+            <option value="1">Đối Tượng 3</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="diemThuNhat" class="form-label">Điểm thứ nhất</label>
+          <input
+            type="text"
+            class="form-control"
+            name="diemThuNhat"
+            id="diemThuNhat"
+            aria-describedby="helpId"
+            placeholder="Điểm thứ nhất"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="diemThuHai" class="form-label">Điểm thứ hai</label>
+          <input
+            type="text"
+            class="form-control"
+            name="diemThuHai"
+            id="diemThuHai"
+            aria-describedby="helpId"
+            placeholder="Điểm thứ hai"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="diemThuBa" class="form-label">Điểm thứ ba</label>
+          <input
+            type="text"
+            class="form-control"
+            name="diemThuBa"
+            id="diemThuBa"
+            aria-describedby="helpId"
+            placeholder="Điểm thứ ba"
+          />
+        </div>
+        <button class="btn btn-success" type="submit" id="ketQua1">
+          Tính Điểm
+        </button>
+        <div class="bg-success text-white p-3 mt-3" id="inketQua1"></div>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
